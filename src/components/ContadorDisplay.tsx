@@ -37,7 +37,7 @@ export interface ContadorDisplayProps {
 export function ContadorDisplay({ valor, etiqueta }: ContadorDisplayProps) {
   return (
     <View style={styles.wrap}>
-      {etiqueta ? <Text style={styles.etiqueta}>{etiqueta}</Text> : null}
+      <Text style={styles.etiqueta}>{etiqueta}</Text>
       <Text style={styles.valor}>{valor}</Text>
     </View>
   );
